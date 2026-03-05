@@ -1,6 +1,6 @@
-# ⚡ ZERO:LATENCY - LInux CApsLOck DElay FIx
+# ZERO:LATENCY - LInux CApsLOck DElay FIx
 
-Uma ferramenta de interface CLI (Command Line Interface) focada em corrigir permanentemente o Bug de atraso (delay) da tecla CapsLock em distribuições Linux rodando Wayland ou X11.
+Uma ferramenta de interface CLI (Command Line Interface) focada em corrigir permanentemente o Bug de atraso (delay) da tecla CapsLock em distribuições Linux rodando Wayland ou X11. `"EFeito BUg NO CAps LOck"`. 
 
 ---
 
@@ -14,11 +14,6 @@ Uma ferramenta de interface CLI (Command Line Interface) focada em corrigir perm
 
 
 ---
-
-### 🐛 O Que Ele Resolve?
-Usuários de Linux enfrentam um Bug de latência nativo ao digitar rápido usando o CapsLock, resultando em erros de digitação invertida como `"EFeito BUg NO CAps LOck"`. 
-
-O **ZERO:LATENCY** Zera o atraso e torna a resposta da tecla instantânea.
 
 ### ⚙️ Como Funciona?
 
