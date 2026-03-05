@@ -6,17 +6,17 @@ A CLI (Command Line Interface) tool focused on permanently fixing the CapsLock k
 
 ### 📸 Screenshots
 
-#### 1. Main Menu
+#### 1. Main Menu & Patch Injection
 <img width="876" height="660" alt="Main Menu" src="https://github.com/user-attachments/assets/d0d8131e-aed1-46b6-8a27-32b150a6319b" />
 
 ---
 
-#### 2. Fixing the Bug
+#### 3. Language Selection (Multilingual)
 <img width="876" height="660" alt="Fixing" src="https://github.com/user-attachments/assets/1e3a7c8d-7802-498d-a07a-de78629a8def" />
 
 ---
 
-#### 3. Success
+#### 3. Root Access Verification
 <img width="876" height="660" alt="Success" src="https://github.com/user-attachments/assets/b25b8560-5d9c-441e-924f-9c0242f597e9" />
 
 
