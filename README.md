@@ -1,39 +1,46 @@
 # ZERO:LATENCY - LInux CApsLOck DElay FIx
 
-Uma ferramenta de interface CLI (Command Line Interface) focada em corrigir permanentemente o Bug de atraso (delay) da tecla CapsLock em distribuições Linux rodando Wayland ou X11. `"EFeito BUg NO CAps LOck"`. 
+A CLI (Command Line Interface) tool focused on permanently fixing the CapsLock key delay bug on Linux distributions running Wayland or X11. `"CAps LOck BUg EFfect"`. 
 
 ---
 
 ### 📸 Screenshots
 
-<img width="876" height="660" alt="image" src="https://github.com/user-attachments/assets/9f10d54e-930f-4de9-878d-ed439c55eb1e" />
+#### 1. Main Menu
+<img width="876" height="660" alt="Main Menu" src="https://github.com/user-attachments/assets/d0d8131e-aed1-46b6-8a27-32b150a6319b" />
 
-<img width="876" height="660" alt="image" src="https://github.com/user-attachments/assets/1e3a7c8d-7802-498d-a07a-de78629a8def" />
+---
 
-<img width="876" height="660" alt="image" src="https://github.com/user-attachments/assets/b25b8560-5d9c-441e-924f-9c0242f597e9" />
+#### 2. Fixing the Bug
+<img width="876" height="660" alt="Fixing" src="https://github.com/user-attachments/assets/1e3a7c8d-7802-498d-a07a-de78629a8def" />
+
+---
+
+#### 3. Success
+<img width="876" height="660" alt="Success" src="https://github.com/user-attachments/assets/b25b8560-5d9c-441e-924f-9c0242f597e9" />
 
 
 ---
 
-### ⚙️ Como Funciona?
+### ⚙️ How It Works
 
-1. **Verificação Segura:** Faz a leitura do arquivo protegido do sistema `/usr/share/X11/xkb/symbols/capslock`.
-2. **Backup Automático:** Salva a configuração original antes de qualquer modificação.
-3. **Injeção de Patch:** Utiliza expressões regulares (Regex) para localizar o bloco `ctrl_modifier` e injeta a rotina correta (`type="ALPHABETIC"`, `repeat=No`, etc.) que anula a latência.
+1. **Safe Verification:** Reads the protected system file `/usr/share/X11/xkb/symbols/capslock`.
+2. **Automatic Backup:** Saves the original configuration before making any modifications.
+3. **Patch Injection:** Uses regular expressions (Regex) to locate the `ctrl_modifier` block and injects the correct routine (`type="ALPHABETIC"`, `repeat=No`, etc.) that eliminates the latency.
 
 ---
 
-### 🛠️ Como Usar
+### 🛠️ How To Use
 
-**1. Baixe e execute (2 Cliques):**
-- Faça o download do arquivo `ZeroLatency.py` aqui do repositório.
-- Clique com o botão direito no arquivo > **Propriedades** > aba **Permissões** > Marque a opção **"Permitir execução do arquivo como um programa"**.
-- Dê **2 cliques** no arquivo (se o sistema perguntar, escolha *"Executar no Terminal"*).
+**1. Download and run (Double Click):**
+- Download the `ZeroLatency.py` file from this repository.
+- Right-click the file > **Properties** > **Permissions** tab > Check the option **"Allow executing file as program"**.
+- **Double-click** the file (if the system asks, choose *"Run in Terminal"*).
 
-> *(Alternativamente, via terminal, basta abrir a pasta onde baixou e rodar: `python3 ZeroLatency.py`)*
+> *(Alternatively, via terminal, just open the folder where you downloaded it and run: `python3 ZeroLatency.py`)*
 
-**2. Após a correção aplicada pelo script:**
-Para garantir que o Sistema Operacional assuma o Patch perfeitamente:
-- Abra o seu utilitário de sistema (Ex: **Gnome Tweaks**).
-- Vá em **Keyboard & Mouse** > **Additional Layout Options** > **Caps Lock behavior**.
-- Ative a opção: **"Make Caps Lock an additional Ctrl"**.
+**2. After applying the script's fix:**
+To ensure the Operating System perfectly adopts the Patch:
+- Open your system utility tool (e.g., **Gnome Tweaks**).
+- Go to **Keyboard & Mouse** > **Additional Layout Options** > **Caps Lock behavior**.
+- Enable the option: **"Make Caps Lock an additional Ctrl"**.
