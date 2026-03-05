@@ -11,7 +11,7 @@ A CLI (Command Line Interface) tool focused on permanently fixing the CapsLock k
 
 ---
 
-#### 3. Language Selection (Multilingual)
+#### 2. Language Selection (Multilingual)
 <img width="876" height="660" alt="Fixing" src="https://github.com/user-attachments/assets/1e3a7c8d-7802-498d-a07a-de78629a8def" />
 
 ---
